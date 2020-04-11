@@ -1,0 +1,23 @@
+html, body {
+  border: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 20px;
+  margin: 20px 0;
+  background: rgba(0, 0, 255, 0.1);
+  border: 1px solid rgba(0, 0, 255, 0.6);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+/* tutaj nasze style */

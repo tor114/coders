@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "1_Zadania/Dzien_5_Warsztat",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+.links {
+  padding: 50px;
+  border: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+.list img {
+  width: calc(25% - 10px);
+  margin: 5px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.elements {
+  display: flex;
+}
+
+.elements div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.elements * {
+  background: #ddd;
+}
+
+/* tutaj nasze style */

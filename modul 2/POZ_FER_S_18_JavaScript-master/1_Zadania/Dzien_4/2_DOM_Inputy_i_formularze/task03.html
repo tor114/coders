@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coders Lab - Moduł 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar shadow-sm p-3 align-items-center">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Coders Lab</h5>
+  <h6 class="my-0">Moduł 2 - DOM Inputy i formualrze</h6>
+</nav>
+
+<main class="container mt-4">
+  <h1>Zadanie 3</h1>
+  <table class="table mt-4">
+    <thead class="thead-dark">
+    <tr>
+      <th colspan="3">Tablica wyników</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Drużyna 1</td>
+      <td>Drużyna 2</td>
+      <td>Wynik:</td>
+    </tr>
+    <tr>
+      <td>Kometa Pionki</td>
+      <td>Błyskawica Ostrołęka</td>
+      <td>3 - 4</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class='card mt-4'>
+    <div class='card-body'>
+      <form>
+        <h3>Drużyna 1</h3>
+        <div class="row">
+          <div class="col">
+            <div class='form-group'>
+              <label for="team1">Nazwa</label>
+              <input type="text" class='form-control' id='team1' name="team1">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="points1">Ilość punktów</label>
+              <input type="text" class='form-control' id='points1' name="points1">
+            </div>
+          </div>
+        </div>
+
+        <h3>Drużyna 2</h3>
+        <div class="row">
+          <div class="col">
+            <div class='form-group'>
+              <label for="team2">Nazwa</label>
+              <input type="text" class='form-control' id='team2' name="team2">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label for="points2">Ilość punktów</label>
+              <input type="text" class='form-control' id='points2' name="points2">
+            </div>
+          </div>
+        </div>
+
+        <button class='btn btn-primary'>Dodaj</button>
+      </form>
+    </div>
+  </div>
+</main>
+</body>
+
+<script src="js/task03.js"></script>
+</html>

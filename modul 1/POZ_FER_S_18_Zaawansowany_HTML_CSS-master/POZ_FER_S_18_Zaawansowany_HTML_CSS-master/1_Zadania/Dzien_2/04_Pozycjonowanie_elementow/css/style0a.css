@@ -1,0 +1,16 @@
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+p {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+/* tutaj wpisz swoje style */

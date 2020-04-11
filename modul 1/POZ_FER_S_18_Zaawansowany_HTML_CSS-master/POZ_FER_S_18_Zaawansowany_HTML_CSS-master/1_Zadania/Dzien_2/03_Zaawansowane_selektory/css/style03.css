@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cnt {
+  margin-bottom: 20px;
+}
+
+.cnt div {
+  overflow: hidden;
+}
+
+.cnt div * {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.cnt div *:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.cnt div:nth-of-type(1) * {
+  border-top: 1px solid #ddd;
+}
+
+div * {
+  background: gold;
+}
+
+
+/*
+-------------------------
+Sprobuj odwzorować grafikę nie zmieniajac HTML
+-------------------------
+gold - kolor żółty
+black - kolor czarny
+*/

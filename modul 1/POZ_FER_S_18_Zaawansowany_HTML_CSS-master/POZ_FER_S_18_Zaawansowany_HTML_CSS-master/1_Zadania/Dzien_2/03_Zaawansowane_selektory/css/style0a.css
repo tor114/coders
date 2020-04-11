@@ -1,0 +1,25 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  font-weight: bold;
+}
+
+.menu li {
+  background: orangered;
+  padding: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}

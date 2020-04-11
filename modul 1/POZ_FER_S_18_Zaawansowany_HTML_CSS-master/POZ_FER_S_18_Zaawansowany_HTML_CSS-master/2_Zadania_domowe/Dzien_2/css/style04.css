@@ -1,0 +1,10 @@
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url(../images/wood-background.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,54 @@
+body {
+  background: #eee;
+}
+
+.articles {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.articles-title {
+  text-align: center;
+  font-family: Georgia, sans;
+  font-size: 2rem;
+}
+
+.articles-list {
+  background: #fff;
+}
+
+.article-left {
+  display: flex;
+}
+
+.article-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.article-photo {
+  height: 300px;
+  width: 50%;
+}
+
+.article-photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-content {
+  width: 50%;
+  height: 300px;
+  color: #444;
+  font-family: Georgia, serif;
+}
+
+.article-title {
+  color: #333;
+}
+
+.article-text {
+  color: #999;
+  line-height: 1.4;
+}

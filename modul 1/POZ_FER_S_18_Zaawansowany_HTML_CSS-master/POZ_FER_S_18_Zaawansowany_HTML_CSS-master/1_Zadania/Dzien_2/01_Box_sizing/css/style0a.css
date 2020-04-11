@@ -1,0 +1,31 @@
+.plan {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  font-family: sans-serif;
+}
+
+.plan-title {
+  margin-top: 0;
+}
+
+.plan-content {
+  overflow: hidden;
+}
+
+.plan-content-title {
+  margin-top: 0;
+}
+
+.plan-content-left {
+  width: 50%;
+  float: left;
+  background: #eee;
+}
+
+.plan-content-right {
+  width: 50%;
+  float: left;
+  background: #ccc;
+}

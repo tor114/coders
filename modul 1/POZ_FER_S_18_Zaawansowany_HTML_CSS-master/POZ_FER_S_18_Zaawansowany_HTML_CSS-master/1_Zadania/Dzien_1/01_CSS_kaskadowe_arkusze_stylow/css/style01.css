@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.container .col-1 a {
+  text-transform: uppercase;
+  color: red;
+}
+
+.container a {
+  border: 3px solid red;
+  background: blue;
+  color: white;
+}
+
+/*
+ * Zmodyfikujce te selektory aby zadziałały
+ */
+.more-info {
+  text-transform: capitalize;
+  color: green;
+  background: transparent;
+}
+
+.btn {
+  border: 1px solid #cacaca;
+  padding: 5px;
+  background: #03a6ff;
+  color: black;
+}

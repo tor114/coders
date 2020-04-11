@@ -1,0 +1,53 @@
+### Node ###
+.*
+~*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+node_modules/
+/vendor
+ehthumbs.db
+Thumbs.db
+.sass-cache/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Linux ###
+*~
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+
+### Webstorm ###
+.idea/
+
+### Other ###
+.test/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Whitelist
+!.gitignore

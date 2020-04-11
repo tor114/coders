@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.article {
+  padding: 30px;
+}
+
+.article-text {
+  color: #888;
+  line-height: 1.5em;
+}
+
+.article-read-more {
+  display: inline-block;
+  padding: 15px 30px;
+  background: orangered;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 0 20px 0 20px;
+}
+
+.banner h1 {
+  font-size: var(--font-size);
+}
+
+.banner {
+  --height: 400px;
+  --font-size: 2rem;
+
+  height: var(--height);
+  padding-top: calc(var(--height) / 2 - var(--font-size));
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+
+  /*
+    Miejsce na Twoje style!
+   */
+
+}

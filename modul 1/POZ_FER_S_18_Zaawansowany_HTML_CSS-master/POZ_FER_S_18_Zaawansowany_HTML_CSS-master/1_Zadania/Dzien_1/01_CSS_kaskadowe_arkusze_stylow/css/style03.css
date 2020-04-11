@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #F60030 url(../images/cutlery-picjumbo-com.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  display: flex;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+.container {
+  box-sizing: border-box;
+  background: #fff;
+  padding: 40px;
+  width: 60%;
+  font-family: Georgia, serif;
+  line-height: 1.4em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+}
+
+.container a {
+  color: #FC0031;
+  text-decoration: underline;
+}
+
+.page-title {
+  margin-top: 0;
+  font-family: sans-serif;
+}
+
+.btn {
+  background: #C40327;
+  padding: 20px 50px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px;
+  color: white;
+}

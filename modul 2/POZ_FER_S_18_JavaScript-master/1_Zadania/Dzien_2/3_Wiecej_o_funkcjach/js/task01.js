@@ -1,0 +1,19 @@
+//Twoj komentarz ...
+function sortArray() {
+
+  //Twoj komentarz ...
+  const points = [41, 3, 6, 1, 114, 54, 64];
+
+  //Twoj komentarz ...
+  points.sort(function (a, b) {
+    //Twoj komentarz ...
+    return a - b;
+  });
+
+  //Twoj komentarz ...
+  return points;
+}
+
+//Twoj komentarz ...
+sortArray();
+    

@@ -1,0 +1,46 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.buttons {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn {
+  padding: 20px 50px 20px 30px;
+  border-radius: 60px;
+  border: 0;
+  background: #ddd;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn i {
+  font-size: 1.5em;
+}
+
+.btn span {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  background: #03a6ff;
+}
+
+.btn-secondary {
+  background: #ff4e50;
+}
+
+.btn-third {
+  background: #3ac569;
+}

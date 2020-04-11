@@ -1,0 +1,39 @@
+/**
+  Deklaracje @font-face tutaj!
+ */
+
+
+:root {
+  --h1: 3rem;
+  --h2: 2.5rem;
+  --container-width: 1000px;
+}
+
+body {
+  max-width: var(--container-width);
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: orangered;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+  margin-top: 0;
+}
+
+section, header, article {
+  margin-bottom: 3rem;
+}
+
+.section--bottom {
+  background: #eee;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
